@@ -3,6 +3,30 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+# Python 
+# Entornos virtuales
+venv/
+env/
+.env
+
+# Archivos temporales de Python y Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Configuraciones locales de VS Code
+.vscode/
+
+# Archivos de datos (¡Crucial para ciencia de datos!)
+data/
+*.csv
+*.xlsx
+*.parquet
+
+# Archivos del sistema operativo (Mac/Windows)
+.DS_Store
+Thumbs.db
+
 # User-specific files
 *.rsuser
 *.suo
